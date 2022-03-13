@@ -14,7 +14,7 @@ namespace InstagramApi.Controllers
         public IActionResult Index()
         {
             InstagramManager ınsta = new InstagramManager();
-            ViewBag.images = ınsta.GetAllImage("IGQVJVSlJYN0xJeUxrVUdUNjZAWc0d1dWxxNVNKalN3VlZAvVmlRQUozelFnVnRPaFNfallzSF9oVG1qc0JON0dNOTlDN2t0QXJjWXB6Wko1cUhpekRUSERPcklKbGlLT3A5aTh6TEkzZAEZA0RzNEaHYyLQZDZD");          
+            ViewBag.images = ınsta.GetAllImage("tokenBilgisi");          
             return View();
         }
     }
