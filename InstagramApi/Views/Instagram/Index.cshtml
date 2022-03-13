@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @foreach (var item in ViewBag.images)
+    {
+        <div>
+            <img src="@item.media_url" alt="Alternate Text" />
+        </div>
+
+    }
+</body>
+</html>
